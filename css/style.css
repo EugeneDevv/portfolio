@@ -14,7 +14,8 @@
 
     --clr-light: #fff;
     --clr-dark: #303030;
-    --clr-accent: #16e0bd;
+    --clr-accent: #e5b9b7;
+    --clr-accent-dark: #8f2d1d;
 
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -135,9 +136,18 @@ display: flex;
 justify-content: space-between;
 padding: 1em;
 }
-.logo {max-width: 100px;
-    max-height: 10px;
+.logo {
+    max-width: 300px;
+    max-height: 200px;
+    margin-top: -2rem;
+    margin-left: -2rem;
+    border-radius: 100%;
 }
+
+.logo img{
+    border-radius: 100%;
+}
+
 
 .nav {
     position: fixed;
@@ -245,6 +255,7 @@ padding: 1em;
 
 .intro__img {
     box-shadow: var(--bs);
+    border-radius: 100%;
 }
 
 .section__subtitle--intro{
@@ -267,6 +278,8 @@ padding: 1em;
         min-width: 250px;
         position: relative;
         z-index: 2;
+        border-radius: 100%;
+        margin-top: 1rem;
     }
 
     .section__subtitle--intro {
